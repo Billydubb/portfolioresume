@@ -539,6 +539,11 @@ div#maincontent {
 	color: black;
 }
 
+#detail_tech_stack {
+	background-color: black;
+	color: white;
+}
+
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
