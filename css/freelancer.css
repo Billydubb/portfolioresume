@@ -19,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: white;
+  color: #C91717;
 }
 h1,
 h2,
@@ -181,15 +181,15 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 section.success {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 @media (max-width: 767px) {
   section {
@@ -535,14 +535,36 @@ div#maincontent {
   outline: none;
 }
 
+p.detail_description {
+  text-align: left;
+  padding: 0 25px;
+}
 #skills{
 	color: black;
 }
 
 #detail_tech_stack {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
+
+#detail_tech_stack h3.category{
+  text-align: left;
+  margin-left: 20px;
+}
+
+#detail_tech_stack .tech_stack_items {
+  text-align: left;
+}
+
+#detail_tech_stack .tech_stack_items .item-boxed {
+  padding: 5px;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
 
 
 /* TIMELINE
@@ -550,8 +572,8 @@ div#maincontent {
 
 .timeline {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  color: #fff;
-  background-color: black;
+  color: black;
+  background-color: white;
   overflow-x: hidden;
   padding-bottom: 50px;
 }
@@ -566,7 +588,8 @@ div#maincontent {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  color: white;
+  background: black;
 }
 
 .timeline ul li::after {
@@ -586,7 +609,7 @@ div#maincontent {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #C91717;
+  background: black;
 }
 
 .timeline ul li div::before {
@@ -605,7 +628,7 @@ div#maincontent {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #C91717 transparent transparent;
+  border-color: transparent black transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -615,7 +638,7 @@ div#maincontent {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #C91717;
+  border-color: transparent transparent transparent black;
 }
 
 time {
@@ -634,7 +657,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #C91717;
+  background: black;
 }
 
 .timeline ul li div {
@@ -684,6 +707,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #C91717 transparent transparent;
+    border-color: transparent #000 transparent transparent;
   }
 }

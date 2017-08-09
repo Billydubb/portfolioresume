@@ -54,11 +54,65 @@
 			"alt": "BVG App Icon"
         },
 		{ 
-            "title": "Slack Standup Chat Bot (SUBot), Personal",
+            "title": "Slack Standup Chat Bot, Personal",
             "timeframe": "2017 - Current",
             "link": "#",
 			"img": "img/portfolio/subot_icon.png",
 			"alt": "SUBot Icon"
+        }
+    ],
+
+    "coffi_tech_list": [
+        { 
+            "category": "App",
+             "items": [
+                {
+                    "title": "Objective-C"
+                 },
+                {
+                    "title": "Objective-C"
+                },
+                {
+                    "title": "Objective-C"
+                 },
+                {
+                    "title": "Objective-C"
+                 }
+            ]
+        },
+        {
+            "category": "Backend",
+             "items": [
+                {
+                    "title": "Objective-C"
+                 },
+                {
+                    "title": "Objective-C"
+                },
+                {
+                    "title": "Objective-C"
+                 },
+                {
+                    "title": "Objective-C"
+                 }
+            ]
+        },
+        {
+            "category": "Project Management",
+             "items": [
+                {
+                    "title": "Objective-C"
+                 },
+                {
+                    "title": "Objective-C"
+                },
+                {
+                    "title": "Objective-C"
+                 },
+                {
+                    "title": "Objective-C"
+                 }
+            ]
         }
     ]
 
