@@ -1,10 +1,5 @@
 
 
-{{> header_navbar}}
-
-
-
-
 	 <div class="portfolio-modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div id="top" class="modal-content">
 
@@ -14,9 +9,9 @@
 						<h2>Coffi (iOS App)</h2> 
 						<hr class="no-star">
 						<a href="https://itunes.apple.com/de/app/coffi/id1100576473">
-							<i class="fa fa-apple" aria-hidden="true"> App Store</i>
+							<i class="fa fa-apple" aria-hidden="true"> View on App Store</i>
 						</a>
-						<img src="img/portfolio/coffi_icon.jpg" class="img-responsive img-centered" alt="">
+						<img src="/img/portfolio/coffi_icon.jpg" class="img-responsive img-centered" alt="">
 						<p class="detail_description">Coffi is an app for connecting job seekers with employers looking to hire new employees. <br>
 The app aims to both simplify the process of hiring as well as searching for jobs by connecting candidates with employer directly without a lengthy application process.<br>
 Employers can quickly post jobs, with relevant information and necessary requirements for the ideal candidate. 
@@ -32,9 +27,9 @@ In case of interest on either side, employers and candidates can chat with each 
 				<h2>Tech Stack</h2>
 				<hr class="no-star">
 				{{#coffi_tech_list}}
-				<h3 class="category">{{category}}</h3>
 				<div class="row">
-					<div class="col-xs-12 tech_stack_items">
+					<div class="col-lg-8 col-lg-offset-2 tech_stack_items">
+						<h3 class="category">{{category}}</h3>
 						{{#items}}
 						<div class="col-xs-4 col-md-2"  >
 							<label class="item-boxed">{{title}}</label>
@@ -47,6 +42,3 @@ In case of interest on either side, employers and candidates can chat with each 
     	</div>
 	 </div>
     
-  
-
-{{> contact_footer}}

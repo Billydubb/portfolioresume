@@ -1,4 +1,4 @@
-{
+const indexJson = {
     "resume_list": [
        { 
             "title": "Machine Learning Course, Coursera",
@@ -33,7 +33,7 @@
 
 	"portfolio_list": [
        { 
-            "title": "Just-Hire iOS App, Softgarden",
+            "title": "Softgarden iOS App, Softgarden",
             "timeframe": "2016 - Current",
             "link": "#",
 			"img": "img/portfolio/just_hire_icon.jpg",
@@ -70,13 +70,16 @@
                     "title": "Objective-C"
                  },
                 {
-                    "title": "Objective-C"
+                    "title": "SQLite"
                 },
                 {
-                    "title": "Objective-C"
+                    "title": "Autolayout/.xib"
                  },
                 {
-                    "title": "Objective-C"
+                    "title": "Socket.io"
+                 },
+				 {
+                    "title": "Push Notifications"
                  }
             ]
         },
@@ -84,16 +87,31 @@
             "category": "Backend",
              "items": [
                 {
-                    "title": "Objective-C"
+                    "title": "Node.js"
                  },
                 {
-                    "title": "Objective-C"
+                    "title": "Express.js"
+                 },
+                {
+                    "title": "Kraken.js"
                 },
                 {
-                    "title": "Objective-C"
+                    "title": "Sequelize"
                  },
                 {
-                    "title": "Objective-C"
+                    "title": "Socket.io"
+                 },
+                {
+                    "title": "Swaggerize"
+                 },
+                {
+                    "title": "Docker"
+                 },
+                {
+                    "title": "Nginx"
+                 },
+                {
+                    "title": "Redis"
                  }
             ]
         },
@@ -101,19 +119,17 @@
             "category": "Project Management",
              "items": [
                 {
-                    "title": "Objective-C"
+                    "title": "Git"
                  },
                 {
-                    "title": "Objective-C"
+                    "title": "Pivotaltracker"
                 },
                 {
-                    "title": "Objective-C"
-                 },
-                {
-                    "title": "Objective-C"
+                    "title": "Jira"
                  }
             ]
         }
     ]
+};
 
-}
+module.exports = indexJson;

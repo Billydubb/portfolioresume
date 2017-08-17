@@ -1,0 +1,58 @@
+
+	 <div class="portfolio-modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div id="top" class="modal-content">
+
+			<section id="detail_description">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h2>Public Transport Live Schedule (iOS App)</h2> 
+						<hr class="no-star">
+						{{!--<a href="https://itunes.apple.com/de/app/coffi/id1100576473">
+							<i class="fa fa-apple" aria-hidden="true"> View on App Store</i>
+						</a>--}}
+						<img src="/img/portfolio/bvg_icon.png" class="img-responsive img-centered" alt="">
+						<p class="detail_description"> This app allowed you to view live schedule data for all the public transportation lines in Berlin and Brandenburg.<br>
+						It included searching for a specific stop, automatically showing stops in your location by GPS position and filtering stops by mode of transportation.<br>
+						The app was developed as a personal project and successfully published on the App Store.
+						<div class="clearfix"></div>
+						<div class="col-xs-12 col-md-4">						
+							<img src="/img/bvgframed.png" class="img-responsive img-centered" alt="">
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<img src="/img/bvgframed1.png" class="img-responsive img-centered" alt="">
+						</div>	
+						<div class="col-xs-12 col-md-4">
+							<img src="/img/bvgframed2.png" class="img-responsive img-centered" alt="">
+						</div>
+						<div class="col-xs-12 col-md-4">	
+							<img src="/img/bvgframed3.png" class="img-responsive img-centered" alt="">
+						</div>
+						<div class="col-xs-12 col-md-4">	
+							<img src="/img/bvgframed4.png" class="img-responsive img-centered" alt="">
+						</div>	
+						<div class="clearfix"></div>
+						
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="detail_tech_stack">
+				<h2>Tech Stack</h2>
+				<hr class="no-star">
+				{{#bvg_tech_list}}
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 tech_stack_items">
+						<h3 class="category">{{category}}</h3>
+						{{#items}}
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">{{title}}</label>
+						</div>
+						{{/items}}
+					</div>
+				</div>
+				{{/bvg_tech_list}}
+			</section>
+    	</div>
+	 </div>
+    

@@ -29,7 +29,7 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 hr.star-light,
 hr.no-star,
@@ -458,7 +458,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 100px 0 25px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
@@ -563,6 +563,7 @@ p.detail_description {
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  text-align: center;
 }
 
 

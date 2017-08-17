@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,187 +70,71 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/celsiusnotes_256.png" alt="">
-                    <div class="intro-text">
-                        <h1 class="name">Kelvin Williams</h1>
-                        <hr class="no-star">
-                        <span class="skills">Software Engineer - Mobile and Backend</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="no-star">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <label>2016 - Current</label>
-                        <img src="img&#x2F;portfolio&#x2F;just_hire_icon.jpg" class="img-responsive" alt="Just-Hire Icon">
-                        <label>Just-Hire iOS App, Softgarden</label>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href=".&#x2F;coffi_detail.html" class="portfolio-link" data-toggle="modal">
-                        <label>2016</label>
-                        <img src="img&#x2F;portfolio&#x2F;coffi_icon.jpg" class="img-responsive" alt="Coffi App Icon">
-                        <label>Coffi iOS App, Softgarden</label>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <label>2015</label>
-                        <img src="img&#x2F;portfolio&#x2F;bvg_icon.png" class="img-responsive" alt="BVG App Icon">
-                        <label>BVG Live Schedule iOS App, Personal</label>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <label>2017 - Current</label>
-                        <img src="img&#x2F;portfolio&#x2F;subot_icon.png" class="img-responsive" alt="SUBot Icon">
-                        <label>Slack Standup Chat Bot, Personal</label>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Resume Timeline Section https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528 -->
-	<section id="resume" class="timeline">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>Resume</h2>
+
+	 <div class="portfolio-modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div id="top" class="modal-content">
+
+			<section id="detail_description">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h2>Softgarden (iOS App)</h2> 
+						<hr class="no-star">
+						<a href="https://itunes.apple.com/us/app/softgarden/id1196869910">
+							<i class="fa fa-apple" aria-hidden="true"> View on App Store</i>
+						</a>
+						<img src="img/portfolio/just_hire_icon.jpg" class="img-responsive img-centered" alt="">
+						<p class="detail_description">This is the accompanying app for softgarden's SaaS platform. With it, hiring managers and recruiters can manage their applicants on the go. <br>
+The app allows you to view new applicants including all of their submitted application documents, chat with colleagues about those applicants and vote applicants up and down to let their colleagues know what they think about an applicant.<br>
+<br>
+Apart from being part of the team of 3 developing this app, my responsibilites included provisioning and distribution of builds (e.g. testflight for QA team) and temporariliy acting as development team lead.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="detail_tech_stack">
+				<h2>Tech Stack</h2>
 				<hr class="no-star">
-			</div>
-        </div>
-  		<ul>
-            <li>
-                <div>
-                    <time>2017 - current</time> 
-                    <label>Machine Learning Course, Coursera</label> <br>
-                    Learning about ML and AI algorithms.
-                </div>
-			</li>
-            <li>
-                <div>
-                    <time>2016 - current</time> 
-                    <label>Full stack mobile (iOS&#x2F;React Native) developer, Softgarden</label> <br>
-                    Finished development of Coffi app and published to the app store. Developed the Just-Hire app for iOS from start to finish in a team of three. Currently leading effors to port the Just-Hire app to Android and Windows platform via React Native.
-                </div>
-			</li>
-            <li>
-                <div>
-                    <time>2014 - 2016</time> 
-                    <label>MSc. Computer Engineering, TU Berlin</label> <br>
-                    Master&#39;s degree in Computer Engineering with a focus on Networking, at the TU Berlin. Thesis entitled: &#39;Design and implementation of a minimal context reasoning engine for robust dynamic spectrum access wireless communication&#39;.
-                </div>
-			</li>
-            <li>
-                <div>
-                    <time>2012 - 2014</time> 
-                    <label>Student Employee, Fraunhofer HHI</label> <br>
-                    Programmed lab equipment in LabView, automating fiber-chip passive waveguide alignment and measurement.
-                </div>
-			</li>
-            <li>
-                <div>
-                    <time>2008 - 2013</time> 
-                    <label>BSc. Electrical Engineering, TU Berlin</label> <br>
-                    Bachelor&#39;s degree in Electrical Engineering with a focus on telecommunications engineering. Thesis entitled: &#39;Automation of fiber-chip alignments for passive waveguide structures.&#39;
-                </div>
-			</li>
-		</ul>
-	</section>
-
-	<!-- Skills Section -->
-    <section id="skills">
-		<div class="col-lg-12 text-center">
-			<h2>Skills and Interests</h2>
-			<hr class="no-star">
-		</div>
-		<div class="row">
-			<div class="col-sm-4 skillcategory">
-				<h3>Programming Languages</h3>
 				<div class="row">
-					<p class="col-md-6" >Swift<p>
-					<p class="col-md-6" >Objective-C<p>
-					<p class="col-md-6">JavaScript/ES6</p>
-					<p class="col-md-6">HTML5/CSS3</p>
-					<p class="col-md-6">Java</p>
-					<p class="col-md-6">Python</p>
-					<p class="col-md-6">Bash</p>
-					<p class="col-md-6">SQL</p>
-					<p class="col-md-6">C++</p>
-					<p class="col-md-6">C</p>
+					<div class="col-lg-8 col-lg-offset-2 tech_stack_items">
+						<h3 class="category">App</h3>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Swift</label>
+						</div>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Core Data</label>
+						</div>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Autolayout&#x2F;.xib</label>
+						</div>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Push Notifications</label>
+						</div>
+					</div>
 				</div>
-        	</div>
-
-			<div class="col-sm-4 skillcategory">
-				<h3>Technologies and Platforms</h3>
 				<div class="row">
-					<p class="col-md-6" >iOS<p>
-					<p class="col-md-6" >React Native<p>
-					<p class="col-md-6">Node.js/Express</p>
-					<p class="col-md-6">Nginx</p>
-					<p class="col-md-6">Docker</p>
-					<p class="col-md-6">*nix Systems</p>
+					<div class="col-lg-8 col-lg-offset-2 tech_stack_items">
+						<h3 class="category">Project Management</h3>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Git</label>
+						</div>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Pivotaltracker</label>
+						</div>
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">Jira</label>
+						</div>
+					</div>
 				</div>
-        	</div>
-
-			<div class="col-sm-4 skillcategory">
-				<h3>Programming Languages</h3>
-				<div class="row">
-					<p class="col-md-6" >Swift<p>
-					<p class="col-md-6" >Objective-C<p>
-					<p class="col-md-6">JavaScript/ES6</p>
-					<p class="col-md-6">HTML5 / CSS3</p>
-					<p class="col-md-6">Java</p>
-					<p class="col-md-6">Python</p>
-					<p class="col-md-6">Bash</p>
-					<p class="col-md-6">SQL</p>
-					<p class="col-md-6">C++</p>
-					<p class="col-md-6">C</p>
-				</div>
-        	</div>
-		</div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="no-star">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Hi, I am Kelvin. I am a Software Engineer with a Bachelor's degree in Electrical Engineering and a Master's Degree in Computer Engineering. Currently, I work as full stack mobile developer (native iOS and React Native) in Berlin. </p>
-                </div>
-				<div class="col-lg-4">
-                    <p>This site serves as my online resume and portfolio. You can find my developer blog at <a href="http://celsiusnotes.com"> celsiusnotes.com </a>.</p>
-                </div>
-				
-            </div>
-        </div>
-    </section>
+			</section>
+    	</div>
+	 </div>
+    
+  
 
 
- 
 	    <!-- Contact Section -->
 	<section id="contact">
 		<div class="container">

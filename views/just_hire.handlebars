@@ -1,0 +1,43 @@
+
+
+	 <div class="portfolio-modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div id="top" class="modal-content">
+
+			<section id="detail_description">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h2>Softgarden (iOS App)</h2> 
+						<hr class="no-star">
+						<a href="https://itunes.apple.com/us/app/softgarden/id1196869910">
+							<i class="fa fa-apple" aria-hidden="true"> View on App Store</i>
+						</a>
+						<img src="/img/portfolio/just_hire_icon.jpg" class="img-responsive img-centered" alt="">
+						<p class="detail_description">This is the accompanying app for softgarden's SaaS platform. With it, hiring managers and recruiters can manage their applicants on the go. <br>
+The app allows you to view new applicants including all of their submitted application documents, chat with colleagues about those applicants and vote applicants up and down to let their colleagues know what they think about an applicant.<br>
+<br>
+Apart from being part of the team of 3 developing this app, my responsibilites included provisioning and distribution of builds (e.g. testflight for QA team) and temporariliy acting as development team lead.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="detail_tech_stack">
+				<h2>Tech Stack</h2>
+				<hr class="no-star">
+				{{#just_hire_tech_list}}
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 tech_stack_items">
+						<h3 class="category">{{category}}</h3>
+						{{#items}}
+						<div class="col-xs-4 col-md-2"  >
+							<label class="item-boxed">{{title}}</label>
+						</div>
+						{{/items}}
+					</div>
+				</div>
+				{{/just_hire_tech_list}}
+			</section>
+    	</div>
+	 </div>
+    
+  
